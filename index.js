@@ -35,7 +35,7 @@ mongoose.connect(process.env.DB_CONNECTION_URL, dbOptions)
 .then(() => log(chalk.green.bgRed.bold("Connection successfull!!!")))
 .catch(err => log(chalk.red(`Connection failed ${err}`)));
 // Development
-app.listen(port, () => console.log(`listening on ${port}`));
+//app.listen(port, () => console.log(`listening on ${port}`));
 
 //Production
 
