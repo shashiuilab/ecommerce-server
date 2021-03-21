@@ -1,10 +1,10 @@
 {
-  "name": "todo-app",
+  "name": "ecommerce-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "devStart": "nodemon index.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
