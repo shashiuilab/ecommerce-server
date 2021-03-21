@@ -39,7 +39,6 @@ mongoose.connect(process.env.DB_CONNECTION_URL, dbOptions)
 
 //Production
 
-let server = app.listen(process.env.PORT || 3000, () => {
-    const port = server.address().port;
-    log(chalk.blue(`Listening on port ${port}`));
+app.listen(process.env.PORT || 3000, () => {
+    console.log(`Listening on port ${process.env.PORT}`);
 })
