@@ -38,7 +38,7 @@ router.put('/:id', async (req, res) => {
     res.status(200).json(data);
 });
 
-router.post('/', async (req, res) => {
+router.post('/register', async (req, res) => {
     const users = new Users({
         name: req.body.name,
         email: req.body.email,
